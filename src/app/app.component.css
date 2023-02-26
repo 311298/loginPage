@@ -1,0 +1,25 @@
+.container {
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+a:hover {
+    color: brown
+}

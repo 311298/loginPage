@@ -1,5 +1,13 @@
 {
   "users": [
-   
+    {
+      "id": "admin",
+      "name": "admin user",
+      "password": "tech@123",
+      "email": "admin@in.com",
+      "gender": "male",
+      "role": "admin",
+      "isActive": true
+    }
   ]
 }

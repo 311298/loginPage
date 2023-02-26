@@ -1,0 +1,10 @@
+<div class="container">
+    <mat-toolbar color="primary" *ngIf="isMenuRequired">
+        <span>Welcome</span>
+        <span><a routerLink="">Home</a></span>
+        <span><a routerLink="/user">User</a></span>
+        <span class="example-spacer"></span>
+        <span><a routerLink="/login">Logout</a></span>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+</div>
